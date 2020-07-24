@@ -3,6 +3,7 @@
 <body>
   
 <button onclick="myFunction()">Try it</button>
+  <button onclick="meFunction()">Try 22</button>
 <br><br>
 
 <iframe src="https://www.w3schools.com"></iframe>
@@ -11,8 +12,10 @@
 function myFunction() {
   window.frames[0].location = "https://www.w3schools.com/jsref/";
 }
+  function meFunction(){
   var markup = windows.frames[0].document.documentElement.innerHTML;
 alert(markup);
+  }
 </script>
 </body>
 </html>
