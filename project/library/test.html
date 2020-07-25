@@ -6,8 +6,11 @@
 
 <script>
 var url = "https://www.roblox.com/library/5417640950/flashbang"
-var hi = jQuery.get(url)
-document.write(hi);
+$(document).ready(function(){
+   $.get(url, function(data, status){
+     document.write(data);
+   });
+});
 </script>
 </body>
 </html>
